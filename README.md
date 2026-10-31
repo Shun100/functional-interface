@@ -4,15 +4,15 @@
 
 特に重要なのは、Function・Predicate・Consumer・Supplier の4種類。
 
-| 分類           | インタフェース        | 用途                               |
-| -------------- | --------------------- | ---------------------------------- |
-| Function       | `Function<T, R>`      | 引数を受け取って値を返す           |
-| BiFunction     | `BiFunction<T, U, R>` | 2つの引数を受け取って値を返す      |
-| UnaryOperator  | `UnaryOperator<T>`    | 同じ型の値を受け取って同じ型を返す |
-| BinaryOperator | `BinaryOperator<T>`   | 同じ型の2つの値から同じ型を返す    |
-| Predicate      | `Predicate<T>`        | 条件判定を行う                     |
-| Consumer       | `Consumer<T>`         | 値を受け取って処理する             |
-| Supplier       | `Supplier<T>`         | 値を生成して返す                   |
+| 分類           | インタフェース         | 用途                               |
+| -------------- | ---------------------- | ---------------------------------- |
+| Function       | `Function<T, R>`       | 引数を受け取って値を返す           |
+| BiFunction     | `BiFunction<T, U, R>`  | 2つの引数を受け取って値を返す      |
+| UnaryOperator  | `UnaryOperator<T>`     | 同じ型の値を受け取って同じ型を返す |
+| BinaryOperator | `BinaryOperator<T, T>` | 同じ型の2つの値から同じ型を返す    |
+| Predicate      | `Predicate<T>`         | 条件判定を行う                     |
+| Consumer       | `Consumer<T>`          | 値を受け取って処理する             |
+| Supplier       | `Supplier<T>`          | 値を生成して返す                   |
 
 ## 2. 基本的なもの
 
