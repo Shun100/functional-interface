@@ -20,7 +20,6 @@
 | ------------------- | ----------------- | ---- | ------- |
 | Function<T, R>      | apply(T t)        | T    | R       |
 | BiFunction<T, U, R> | apply(T t, U u)   | T, U | R       |
-| UnaryOperation<T>   | apply(T t)        | T    | T       |
 | UnaryOperator<T>    | apply(T t)        | T    | T       |
 | BinaryOperator<T>   | apply(T t1, T t2) | T, T | T       |
 | Predicate<T>        | test(T t)         | T    | boolean |
